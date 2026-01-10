@@ -1,5 +1,4 @@
 { pkgs, caelestia-shell, caelestia-cli, zen-browser, ... }:
-
 {
   environment.systemPackages = with pkgs; [
     # WM
@@ -17,6 +16,7 @@
     rofi
     foot
     thunar
+    stow
     zen-browser.packages.${pkgs.system}.default
 
     # CLI / utils

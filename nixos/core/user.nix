@@ -9,7 +9,7 @@
 
   users.users.rez = {
     isNormalUser = true;
-    description = "Rez"; # Set a password with ‘passwd’.
+    description = "Rez";
     initialPassword = "idk!";
     extraGroups = [
       "wheel"

@@ -1,7 +1,0 @@
-{
-    "name": "caelestiafox",
-    "description": "Native app for CaelestiaFox extension.",
-    "path": "/home/rez/.local/lib/caelestia/caelestiafox",
-    "type": "stdio",
-    "allowed_extensions": ["caelestiafox@caelestia.org"]
-}

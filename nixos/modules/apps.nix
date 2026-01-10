@@ -31,9 +31,7 @@
     cliphist
     inotify-tools
     app2unit
-    trash-cli
-    
-    
+    trash-cli    
     btop
     fastfetch
 

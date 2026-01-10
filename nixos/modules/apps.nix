@@ -18,6 +18,10 @@
     thunar
     stow
     zen-browser.packages.${pkgs.system}.default
+    kitty
+    zsh
+    oh-my-zsh
+    pay-respects
 
     # CLI / utils
     git

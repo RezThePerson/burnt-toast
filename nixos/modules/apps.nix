@@ -32,6 +32,8 @@
     pinentry-curses
     nixfmt-rfc-style
     wl-clipboard
+    grim
+    slurp
     cliphist
     inotify-tools
     app2unit

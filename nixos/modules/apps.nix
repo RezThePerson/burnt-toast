@@ -14,8 +14,6 @@
     tor
     tor-browser
     rofi
-    foot
-    thunar
     stow
     zen-browser.packages.${pkgs.system}.default
     kitty
@@ -28,32 +26,16 @@
     nodejs
     starship
     curl
-    gnupg
-    pinentry-curses
     nixfmt-rfc-style
     wl-clipboard
     grim
     slurp
     cliphist
-    inotify-tools
-    app2unit
     trash-cli    
     btop
     fastfetch
     bibata-cursors
-
-    # Theming
-    adw-gtk3
-    papirus-icon-theme
-    libsForQt5.qt5ct
-    kdePackages.qt6ct
-    jq
-    eza
-    fish
-
-    # Caelestia
-    caelestia-shell.packages.${pkgs.system}.default
-    caelestia-cli.packages.${pkgs.system}.default
+    quickshell
   ];
 
   # Fonts

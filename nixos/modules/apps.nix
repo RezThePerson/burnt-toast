@@ -34,6 +34,7 @@
     trash-cli    
     btop
     fastfetch
+    bibata-cursors
 
     # Theming
     adw-gtk3

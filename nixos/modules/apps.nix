@@ -1,4 +1,4 @@
-{ pkgs, caelestia-shell, caelestia-cli, zen-browser, ... }:
+{ pkgs, zen-browser, ... }:
 {
   environment.systemPackages = with pkgs; [
     # WM
@@ -36,6 +36,7 @@
     fastfetch
     bibata-cursors
     quickshell
+    waybar
   ];
 
   # Fonts

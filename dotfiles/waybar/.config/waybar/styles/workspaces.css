@@ -1,0 +1,31 @@
+#workspaces {
+    background-color: shade(@surface0, 0.75);
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#workspaces button {
+    border-radius: 0px;
+    padding: 5px 8px;
+
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+}
+
+#workspaces button:first-child {
+    border-radius: 20px 20px 0px 0px;
+}
+
+#workspaces button:last-child {
+    border-radius: 0px 0px 20px 20px;
+}
+
+#workspaces button:hover {
+    transition: none;
+    background: shade(@surface1, 0.75);
+}
+
+#workspaces button.active {
+    background-color: shade(@mauve, 0.75);
+}

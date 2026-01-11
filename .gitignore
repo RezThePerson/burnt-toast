@@ -1,0 +1,5 @@
+dotfiles/vscode/.config/Code/*
+!dotfiles/vscode/.config/Code/User/
+dotfiles/vscode/.config/Code/User/globalStorage
+dotfiles/vscode/.config/Code/User/History
+!dotfiles/vscode/.config/Code/User/settings.json

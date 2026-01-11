@@ -1,0 +1,31 @@
+{
+    "position": "left",
+    "layer": "top",
+    "width": 20,
+
+    // top
+    "modules-left": ["hyprland/workspaces"],
+    "hyprland/workspaces": {
+        "format": "",
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+        "sort-by-number": true
+    },
+
+    // center
+    "modules-center": ["hyprland/window"],
+    "hyprland/window": { "rotate": 90, "max-length": 50 },
+
+    // bottom
+    "modules-center": ["hyprland/window"],
+    "custom/power": {
+        "format": "⏻ ",
+        "tooltip": false
+    }
+}

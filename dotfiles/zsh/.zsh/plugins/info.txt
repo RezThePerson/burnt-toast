@@ -1,0 +1,5 @@
+plugins are from:
+
+- github.com/zsh-users/zsh-history-substring-search/
+- github.com/zsh-users/zsh-autosuggestions/
+- github.com/zsh-users/zsh-syntax-highlighting/

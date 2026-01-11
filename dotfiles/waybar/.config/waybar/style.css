@@ -11,3 +11,4 @@ window#waybar {
 }
 
 @import "styles/workspaces.css";
+@import "styles/info.css";

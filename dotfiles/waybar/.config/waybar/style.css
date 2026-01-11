@@ -6,8 +6,7 @@
 }
 
 window#waybar {
-    background-color: shade(@base, 0.75);
-    border: 2px solid alpha(@crust, 0.3);
+    background-color: alpha(@base, 0.75);
 }
 
 @import "styles/workspaces.css";

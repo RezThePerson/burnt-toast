@@ -1,5 +1,5 @@
 #workspaces {
-    background-color: shade(@surface0, 0.75);
+    background-color: alpha(@surface0, 0.75);
     border-radius: 20px;
     margin: 5px;
 }
@@ -23,9 +23,9 @@
 
 #workspaces button:hover {
     transition: none;
-    background: shade(@surface1, 0.75);
+    background: alpha(@surface1, 0.75);
 }
 
 #workspaces button.active {
-    background-color: shade(@mauve, 0.75);
+    background-color: alpha(@mauve, 0.75);
 }

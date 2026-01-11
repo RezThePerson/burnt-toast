@@ -1,14 +1,18 @@
-#clock {
-    background-color: shade(@surface0, 0.75);
+#clock, #info {
+    background-color: alpha(@surface0, 0.75);
     border-radius: 20px;
     margin: 5px;
     padding: 10px 0px;
 }
 
-window#waybar#battery.warning {
+#battery {
+    padding: 0px 10px 5px 10px;
+}
+
+window#waybar.battery-warning {
     background-color: shade(@yellow, 1);
 }
 
-window#waybar#battery.critical {
+window#waybar.battery-critical {
     background-color: shade(@red, 1);
 }

@@ -23,26 +23,29 @@
     "hyprland/window": { "rotate": 90, "max-length": 50 },
 
     // bottom
-    "modules-right": [
-        "clock",
-        "battery",
-        "network",
-        "bluetooth",
-        "custom/power"
-    ],
+    "modules-right": ["clock", "group/info"],
+    "clock": { "format": "{:%I\n%M\n——\n%d\n%m}", "tooltip": false },
 
+    "group/info": {
+        "orientation": "vertical",
+        "modules": ["battery", "network"]
+    },
     "battery": {
         "states": {
             "warning": 40,
             "critical": 15
         },
         "format": "{icon}",
-        "tooltip-format": "power: {capacity}%\ntime: {time}",
-        "format-icons-plugged": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+        "format-charging": "󰂄",
+        "tooltip-format": "power: {capacity}%\ntime: {timeTo}",
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
-
-    "clock": { "format": "{:%I\n%M\n——\n%d\n%m}" },
-
-    "custom/power": { "format": "⏻", "tooltip": false }
+    "network": {
+        "tooltip": false,
+        "format": "",
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "format-wifi": "{icon}",
+        "format-ethernet": "󰈁",
+        "format-disconnected": "󰤭"
+    }
 }

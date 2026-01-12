@@ -15,6 +15,7 @@
     btop
     fastfetch
     bluetui
+    yazi
 
     # Dev tools
     git
@@ -32,6 +33,8 @@
     slurp
     cliphist
     trash-cli
+    ffmpeg
+    yt-dlp
 
     # misc
     bluez

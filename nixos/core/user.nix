@@ -5,6 +5,8 @@
   ...
 }:
 {
+  programs.zsh.enable = true;
+
   users.users.rez = {
     isNormalUser = true;
     description = "Rez";

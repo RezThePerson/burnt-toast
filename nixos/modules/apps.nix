@@ -38,6 +38,7 @@
     wireplumber
 
     # rice apps
+    hyprland
     hyprpicker
     hypridle
     rofi

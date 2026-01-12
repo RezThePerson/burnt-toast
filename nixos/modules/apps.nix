@@ -42,7 +42,6 @@
     hyprpicker
     hypridle
     rofi
-    ulauncher
     quickshell
     waybar
     swaybg

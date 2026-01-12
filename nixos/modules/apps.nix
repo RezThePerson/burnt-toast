@@ -1,5 +1,8 @@
 { pkgs, zen-browser, ... }:
 {
+  programs.xwayland.enable = true;
+  programs.hyprland.enable = true;
+
   environment.systemPackages = with pkgs; [
     # WM
     hyprland

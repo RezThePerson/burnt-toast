@@ -1,15 +1,15 @@
-{pkgs, ...}:
+{ pkgs, ... }:
 {
   hardware.graphics = {
     enable = true;
-    enable32Bit = true;
     extraPackages = with pkgs; [
       mesa
-      libGL
-      vulkan-loader
-      vulkan-validation-layers
+      intel-media-driver
+      intel-vaapi-driver
+      vpl-gpu-rt
+      libglvnd
+      egl-wayland
+      xorg.libX11
     ];
   };
-
-  services.xserver.enable = true;
 }

@@ -13,7 +13,6 @@
     "display": {
         "separator": ""
     },
-    "percentType": "6",
     "modules": [
         "break",
         {

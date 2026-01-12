@@ -21,5 +21,6 @@ source ~/.zsh/plugins/zsh-history-substring-search.zsh
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias flex="fastfetch"
+alias rb="sudo nixos-rebuild switch --flake ~/Burnt-Toast/nixos#nixos"
 
 fastfetch

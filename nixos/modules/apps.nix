@@ -1,14 +1,8 @@
 { pkgs, zen-browser, ... }:
 {
-  programs.xwayland.enable = true;
   programs.hyprland.enable = true;
 
   environment.systemPackages = with pkgs; [
-    # WM
-    hyprland
-    hyprpicker
-    hypridle
-
     # Apps
     firefox
     neovim
@@ -16,30 +10,43 @@
     vscode
     tor
     tor-browser
-    rofi
-    stow
     zen-browser.packages.${pkgs.system}.default
     kitty
-    zsh
-    oh-my-zsh
-    pay-respects
+    btop
+    fastfetch
+    bluetui
 
-    # CLI / utils
+    # Dev tools
     git
     nodejs
     starship
     curl
+    stow
+    zsh
+    pay-respects
     nixfmt-rfc-style
+
+    # Utils
     wl-clipboard
     grim
     slurp
     cliphist
-    trash-cli    
-    btop
-    fastfetch
-    bibata-cursors
+    trash-cli
+
+    # misc
+    bluez
+    wireplumber
+
+    # rice apps
+    hyprpicker
+    hypridle
+    rofi
+    ulauncher
     quickshell
     waybar
+
+    # rice others
+    bibata-cursors
   ];
 
   # Fonts
@@ -47,5 +54,4 @@
     nerd-fonts.space-mono
     nerd-fonts.jetbrains-mono
   ];
-
 }

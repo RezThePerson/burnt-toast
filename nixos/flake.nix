@@ -1,5 +1,5 @@
 {
-  description = "My Burnt Toast NixOS flake";
+  description = "My Burnt Toast's NixOS flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

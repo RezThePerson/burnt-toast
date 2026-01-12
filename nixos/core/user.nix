@@ -5,8 +5,6 @@
   ...
 }:
 {
-  programs.zsh.enable = true;
-
   users.users.rez = {
     isNormalUser = true;
     description = "Rez";
@@ -19,7 +17,6 @@
       "tty"
       "audio"
     ];
-    packages = with pkgs; [ ];
     shell = pkgs.zsh;
   };
 }

@@ -1,0 +1,4 @@
+got from:
+
+light - https://github.com/zhichaoh/catppuccin-wallpapers/blob/main/landscapes/tropic_island_day.jpg
+dark - https://github.com/zhichaoh/catppuccin-wallpapers/blob/main/landscapes/tropic_island_night.jpg

@@ -45,6 +45,7 @@
     ulauncher
     quickshell
     waybar
+    swaybg
 
     # rice others
     bibata-cursors

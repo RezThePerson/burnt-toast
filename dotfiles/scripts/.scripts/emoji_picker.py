@@ -3,9 +3,8 @@ from pathlib import Path
 
 emojis = Path("~/.scripts/assets/emojis.txt").expanduser().read_text()
 
-
 chosen = subprocess.check_output(
-   ["rofi", "-dmenu", "-p", "Emoji"],
+   ["rofi", "-dmenu", "-p", "emoji"],
     input=emojis,
     text=True,
 )

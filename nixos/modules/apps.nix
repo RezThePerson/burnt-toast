@@ -15,6 +15,7 @@
     btop
     fastfetch
     bluetui
+    pulsemixer
     yazi
 
     # Dev tools

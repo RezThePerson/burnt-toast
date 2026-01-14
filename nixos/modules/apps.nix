@@ -26,6 +26,7 @@
     zsh
     pay-respects
     nixfmt-rfc-style
+    python3
 
     # Utils
     wl-clipboard

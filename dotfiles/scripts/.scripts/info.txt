@@ -1,0 +1,3 @@
+emoji:
+ - originaly take from: https://github.com/caelestia-dots/cli/blob/main/src/caelestia/subcommands/emoji.py
+ - modified by me by a lot

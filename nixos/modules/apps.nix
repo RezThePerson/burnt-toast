@@ -17,6 +17,7 @@
     bluetui
     pulsemixer
     yazi
+    eza
 
     # Dev tools
     git
@@ -37,6 +38,7 @@
     trash-cli
     ffmpeg
     yt-dlp
+    libqalculate
 
     # misc
     bluez

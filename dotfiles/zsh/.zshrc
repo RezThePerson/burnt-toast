@@ -22,5 +22,11 @@ source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias flex="fastfetch"
 alias rb="sudo nixos-rebuild switch --flake ~/Burnt-Toast/nixos#nixos"
+alias c="qalc"
+
+alias l="eza -1 --icons"
+alias la="eza -1 --icons -a"
+alias ll="eza -1 --icons -l"
+alias lt="eza -1 --tree --level=2 --icons"
 
 fastfetch

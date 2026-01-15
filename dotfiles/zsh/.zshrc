@@ -29,4 +29,11 @@ alias la="eza -1 --icons -a"
 alias ll="eza -1 --icons -l"
 alias lt="eza -1 --tree --level=2 --icons"
 
+alias tui-wifi="nmtui"
+alias tui-bluetooth="bluetui"
+alias tui-audio="pulsemixer"
+alias wifi-tui="nmtui"
+alias bluetooth-tui="bluetui"
+alias audio-tui="pulsemixer"
+
 fastfetch

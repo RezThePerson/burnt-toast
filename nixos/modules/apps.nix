@@ -5,6 +5,7 @@
   environment.systemPackages = with pkgs; [
     # Apps
     firefox
+    chromium
     neovim
     prismlauncher
     vscode

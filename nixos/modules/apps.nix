@@ -48,6 +48,7 @@
     # rice apps
     hyprland
     hyprpicker
+    hyprlock
     hypridle
     rofi
     quickshell

@@ -6,7 +6,7 @@ def current_volume():
         ["wpctl", "get-volume", "@DEFAULT_SINK@"]
     )
 
-    return str(int(float(current_volume_unformatted.split()[-1])))
+    return (current_volume_unformatted.split()[-1])
 
 
 def generate_options():

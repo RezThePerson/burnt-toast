@@ -19,6 +19,7 @@
     pulsemixer
     yazi
     eza
+    gimp
 
     # Dev tools
     git

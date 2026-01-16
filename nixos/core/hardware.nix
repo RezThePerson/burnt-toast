@@ -6,4 +6,6 @@
       mesa
     ];
   };
+
+  hardware.opentabletdriver.enable = true;
 }

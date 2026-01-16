@@ -1,0 +1,31 @@
+[global]
+width = 360
+height = 120
+origin = top-right
+offset = 40x40
+corner_radius = 10
+
+font = JetBrainsMono Nerd Font
+
+frame_width = 2
+frame_color = "#f4b8e4"
+separator_color = frame
+highlight = "#f4b8e4"
+background = "#303446"
+foreground = "#c6d0f5"
+
+icon_position = left
+max_icon_size = 48
+
+[urgency_low]
+background = "#303446"
+foreground = "#c6d0f5"
+
+[urgency_normal]
+background = "#303446"
+foreground = "#c6d0f5"
+
+[urgency_critical]
+background = "#303446"
+foreground = "#c6d0f5"
+frame_color = "#ef9f76"

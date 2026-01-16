@@ -53,6 +53,8 @@
     quickshell
     waybar
     swaybg
+    libnotify
+    dunst
 
     # rice others
     bibata-cursors

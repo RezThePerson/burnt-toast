@@ -41,6 +41,7 @@
     ffmpeg
     yt-dlp
     libqalculate
+    brightnessctl
 
     # misc
     bluez

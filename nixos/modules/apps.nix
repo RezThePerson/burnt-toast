@@ -42,6 +42,7 @@
     yt-dlp
     libqalculate
     brightnessctl
+    playerctl
 
     # misc
     bluez

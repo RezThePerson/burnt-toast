@@ -3,7 +3,6 @@
   # audio
   services.pipewire = {
     enable = true;
-    pulse.enable = true;
   };
   services.dbus.enable = true;
 

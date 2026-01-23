@@ -20,6 +20,7 @@
     yazi
     eza
     gimp
+    legcord
 
     # Dev tools
     git
@@ -31,6 +32,7 @@
     pay-respects
     nixfmt-rfc-style
     python3
+    javaPackages.compiler.temurin-bin.jdk-21
 
     # Utils
     wl-clipboard
@@ -43,6 +45,9 @@
     libqalculate
     brightnessctl
     playerctl
+    zip
+    unzip
+    nix-search-cli
 
     # misc
     bluez
@@ -54,7 +59,6 @@
     hyprlock
     hypridle
     rofi
-    quickshell
     waybar
     swaybg
     libnotify

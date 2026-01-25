@@ -33,6 +33,7 @@
     nixfmt-rfc-style
     python3
     javaPackages.compiler.temurin-bin.jdk-21
+    go
 
     # Utils
     wl-clipboard

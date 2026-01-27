@@ -1,6 +1,6 @@
 * {
     lightfg: @text;
-    lightbg: @mantle;
+    lightbg: @base;
     background: @base;
     foreground: @text;
 }

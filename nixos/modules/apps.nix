@@ -21,6 +21,7 @@
     eza
     gimp
     legcord
+    obsidian
 
     # Dev tools
     git
@@ -34,6 +35,7 @@
     python3
     javaPackages.compiler.temurin-bin.jdk-21
     go
+    gcc
 
     # Utils
     wl-clipboard
@@ -49,6 +51,7 @@
     zip
     unzip
     nix-search-cli
+    polkit_gnome
 
     # misc
     bluez

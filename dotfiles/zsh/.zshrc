@@ -24,7 +24,7 @@ alias flex="fastfetch"
 alias rb="sudo nixos-rebuild switch --flake ~/Burnt-Toast/nixos#nixos"
 alias c="qalc"
 alias y="yazi"
-alias ls="echo 'dawg use l insterd'"
+alias ls="echo 'dawg use l instead'"
 
 alias l="eza -1 --icons"
 alias la="eza -1 --icons -a"
@@ -37,5 +37,7 @@ alias tui-audio="pulsemixer"
 alias wifi-tui="nmtui"
 alias bluetooth-tui="bluetui"
 alias audio-tui="pulsemixer"
+
+alias replay="cd ~/.local/share/PrismLauncher/instances/1.21.11\(1\)/minecraft/replay_videos/"
 
 fastfetch

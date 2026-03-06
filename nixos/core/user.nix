@@ -18,6 +18,8 @@
       "input"
       "tty"
       "audio"
+      "plugdev"
+      "disk"
     ];
     shell = pkgs.zsh;
   };
